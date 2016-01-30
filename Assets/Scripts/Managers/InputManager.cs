@@ -105,22 +105,22 @@ public class InputManager : MonoBehaviour
 		//TODO : Mobile touch handler
 		#else
 
-			if(Input.GetKeyDown("UpArrow"))
+			if(Input.GetKeyDown(KeyCode.UpArrow))
 			{
 				onMoveUp();
 			}
 
-			if(Input.GetKeyDown("DownArrow"))
+			if(Input.GetKeyDown(KeyCode.DownArrow))
 			{
 				onMoveDown();
 			}
 
-			if(Input.GetKeyDown("LeftArrow"))
+			if(Input.GetKeyDown(KeyCode.LeftArrow))
 			{
 				onMoveLeft();
 			}
 
-			if(Input.GetKeyDown("RightArrow"))
+			if(Input.GetKeyDown(KeyCode.RightArrow))
 			{
 				onMoveRight();
 			}
